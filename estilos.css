@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(109, 109, 109);
+    }
+
+header{
+    background-color: rgb(131, 128, 128);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    background-color: rgb(188, 188, 188);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+    }
+
+section{
+    border: solid rgb(200, 199, 199);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    height: 100px;
+    
+}
+section:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(149, 146, 146);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.mouse{
+    cursor: help;
+}
